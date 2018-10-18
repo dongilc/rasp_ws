@@ -1,0 +1,25 @@
+autoscan: warning: missing AC_CHECK_FUNCS([memset]) wanted by: 
+	serialbridge.c:58
+autoscan: warning: missing AC_CHECK_FUNCS([socket]) wanted by: 
+	serialbridge.c:55
+autoscan: warning: missing AC_CHECK_HEADERS([fcntl.h]) wanted by: 
+	speed.c:20
+	serialbridge.c:21
+	setspeed.c:19
+autoscan: warning: missing AC_CHECK_HEADERS([netinet/in.h]) wanted by: 
+	serialbridge.c:30
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	serialbridge.c:25
+	setspeed.c:21
+	check.h:23
+autoscan: warning: missing AC_CHECK_HEADERS([string.h]) wanted by: 
+	serialbridge.c:26
+autoscan: warning: missing AC_CHECK_HEADERS([sys/socket.h]) wanted by: 
+	serialbridge.c:20
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	serialbridge.c:28
+autoscan: warning: missing AC_PREREQ wanted by: 
+	autoscan
+autoscan: warning: missing AC_TYPE_UINT8_T wanted by: 
+	serialbridge.c:71
+	serialbridge.c:76
